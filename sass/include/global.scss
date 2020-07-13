@@ -1,0 +1,27 @@
+/*  global classes  */
+
+button, button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background: $color-background;
+}
+
+
+#icon{
+    
+    background: #202020;
+    margin-left: 10px;
+    padding: 8px 15px ;
+    &:hover{
+        background: $color-yellow;
+    }
+
+}
+

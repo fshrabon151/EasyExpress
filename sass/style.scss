@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap');
+
+/*              Sass Template           */
+@import 'include/variables';
+@import 'include/global';
+@import 'include/typography';
+@import 'include/color';
+@import 'include/top-sale';
+@import 'include/special-price';
+
+
+
+.form-control {
+    margin-top: 0px;
+    margin-left: 30px;
+    border: 1px solid #ad0a0a !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+  }
+  .input-group-text {
+    background: #ad0a0a !important;
+    border: 1px solid #ad0a0a !important;
+    margin: 0px 10px 3px 0 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+  }
+  .search-box {
+    display: inline-flex;
+
+  }
+  .fa-search {
+    color: #fff;
+  }
+
+
+  .blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color:$color-background;    }
+    49%{    color: $color-yellow; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color:$color-background;    }
+}
+
+
+
