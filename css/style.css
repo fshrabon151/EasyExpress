@@ -115,8 +115,6 @@ body {
 #special-price .grid .grid-item {
   margin-right: 1.2rem;
   margin-top: 1rem;
-  overflow: hidden;
-  z-index: 10;
 }
 
 .blinking {
