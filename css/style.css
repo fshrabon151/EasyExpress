@@ -113,8 +113,8 @@ body {
 
 /*   Special Price Section Template */
 #special-price .grid .grid-item {
-  margin-right: 1.2rem;
-  margin-top: 1rem;
+  padding-right: 1.2rem;
+  padding-top: 1rem;
 }
 
 .blinking {
