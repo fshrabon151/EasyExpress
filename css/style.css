@@ -117,6 +117,27 @@ body {
   margin-top: 1rem;
 }
 
+.blinking {
+  animation: blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText {
+  0% {
+    color: #f3f3f3;
+  }
+  49% {
+    color: #FFD289;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: #f3f3f3;
+  }
+}
 .form-control {
   margin-top: 0px;
   margin-left: 30px;
@@ -145,28 +166,6 @@ body {
 
 .fa-search {
   color: #fff;
-}
-
-.blinking {
-  animation: blinkingText 1.2s infinite;
-}
-
-@keyframes blinkingText {
-  0% {
-    color: #f3f3f3;
-  }
-  49% {
-    color: #FFD289;
-  }
-  60% {
-    color: transparent;
-  }
-  99% {
-    color: transparent;
-  }
-  100% {
-    color: #f3f3f3;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

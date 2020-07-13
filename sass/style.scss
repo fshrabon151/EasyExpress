@@ -7,6 +7,7 @@
 @import 'include/color';
 @import 'include/top-sale';
 @import 'include/special-price';
+@import 'include/blinker-animation';
 
 
 
@@ -39,16 +40,6 @@
   }
 
 
-  .blinking{
-    animation:blinkingText 1.2s infinite;
-}
-@keyframes blinkingText{
-    0%{     color:$color-background;    }
-    49%{    color: $color-yellow; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color:$color-background;    }
-}
 
 
 
